@@ -14,7 +14,6 @@ import { useTheme } from '../../common/ThemeContext'
 function Hero() {
   const {theme,toggleTheme} = useTheme();
   const themeIcon = theme === 'light' ? sun : moon;
-  const twitterIcon = theme === 'light' ? twitterlight : twitterdark;
   const githubIcon = theme === 'light' ? githublight : githubdark;
   const linkedinIcon = theme === 'light' ? linkedinlight : linkedindark;
   return (
